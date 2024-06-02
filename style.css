@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#main{
+    width: 100%;
+    /* height: 200vh; */
+    /* background-color: rgb(255, 255, 255); */
+    background: url('https://codewithsadee.github.io/portfolio/assets/images/hero-bg.jpg');
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8vh 10vw;
+    color: #ffff;
+    /* position: fixed; */
+   
+    
+}
+
+nav h3{
+    font-size: 18px;
+    font-family: 'barlow';
+    letter-spacing: .1px;
+    font-weight: 400;
+}
+
+nav h1{
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Poppins';
+    
+}
+ 
+nav button{
+    padding: 10px 20px;
+    border-radius: 30px;
+    /* background-color: greenyellow; */
+    /* color: black; */
+    font-family: 'barlow';
+}
+
+
+#hero{
+    width: 100%;
+   
+    /* background-color: rgb(5, 13, 21); */
+    padding: 5vh 12vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#hero-left{
+    width: 45%;
+    height: 100%;
+    /* background-color: azure; */
+    text-align: left;
+}
+
+#hero-left h2{
+    font-size: 40px;
+    color: #ffff;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+
+#hero-left h3{
+    font-family: 'barlow';
+    margin: 30px 0;
+    font-size: 24px;
+    color: #ffff;
+    font-weight: 400;
+}
+
+#hero-left h3:nth-child(4){
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: 200;
+    color: aliceblue;
+   
+}
+#hero-left h3:nth-child(5){
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-weight: 200;
+    color: aliceblue;
+    margin-top: 10px;
+   
+}
+
+#hero-left button{
+    padding: 2% 10%;
+    border-radius: 20px;
+    background-color: #FB523C;
+    color: white;
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#hero-left button:hover{
+    background-color: #622119;
+}
+
+#hero-right{
+    width: 45%;
+    height: 100%;
+    /* background-color: azure; */
+    padding: 8% 8%;
+    
+}
+
+#hero-right img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #242338;
+    color: white;
+    font-family: 'barlow';
+
+}
+
+#contact-box{
+    width: 70%;
+    height: 80%;
+    background-color: #0B1B75;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#contact-box-left{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(161, 125, 196); */
+    padding: 5% 5%;
+   
+    
+}
+
+#contact-box-left>h2{
+    font-size: 30px;
+    font-family: 'poppins';
+    line-height: 40px;
+    margin-bottom: 7%;
+}
+
+#contact-box-left>h2 span{
+    color: #FB523C;
+    font-size: 18px;
+}
+
+#contact-box-left input,textarea{
+    width: 80%;
+    padding: 4% 5%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+}
+
+#contact-box-left button{
+    width: 80%;
+    padding: 3% 4%;
+    background-color: #FB523C;
+    border-radius: 10px;
+}
+
+
+
+
+
+#contact-box-right{
+    width: 48%;
+    height: 100%;
+    /* background-color: rgb(161, 125, 196); */
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 6%;
+ 
+    
+}
+
+.c{
+  
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20%;
+    margin-bottom: 1vw;
+}
+
+.c i{
+    font-size: 30px;
+    background-color: #7080D2;
+    padding: 1.7vw;
+    border-radius: 50%;
+    text-align: left;
+    color: white;
+}
+
+.c h3{
+    text-align: left;
+    color: white;
+    font-size: 22px;
+}
+
+.c h3 span{
+    color: #b3b3b4;
+    font-size: 14px;
+    
+}
+
+
+
+
+
+
+
+
+
