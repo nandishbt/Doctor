@@ -349,7 +349,7 @@ nav img{
 
 #contact-box{
     width: 90%;
-    height: 90%;
+    height: 100%;
    
     
     display: flex;
@@ -412,6 +412,39 @@ nav img{
  
     
 }
+
+.c{
+  
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20%;
+    margin-bottom: 1vw;
+}
+
+.c i{
+    font-size: 24px;
+    background-color: #7080D2;
+    padding: 1vw;
+    border-radius: 50%;
+    text-align: left;
+    color: white;
+}
+
+.c h3{
+    text-align: left;
+    color: white;
+    font-size: 18px;
+}
+
+.c h3 span{
+    color: #b3b3b4;
+    font-size: 12px;
+    
+}
+
+
 
 
 
