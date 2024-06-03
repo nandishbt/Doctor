@@ -253,6 +253,8 @@ nav img{
 @media(max-width:600px){
     nav{
         padding: 1vh 2vw;
+        position: relative;
+      
       
         /* position: fixed; */  
     }
@@ -269,6 +271,13 @@ nav img{
     nav img{
         top: 90%;
         right: 5%;
+        
+    }
+
+    #drp{
+        width: fit-content;
+        position: absolute;
+        right: 2%;
         
     }
 
